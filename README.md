@@ -8,3 +8,10 @@ It features a config _similar_ to npm's `package.json`, called `rpm.json`. An ex
 > Not all features described here will be readily available, and this project is very much a **work in progress**.
 >
 > Furthermore, this Readme is nowhere near completed.
+
+### Mini-Roadmap
+
+- [ ] Minify Packages into one single script
+- [ ] Make publicly available Package Server
+- [ ] Roblox Plugin ([#1](https://github.com/MokiyCodes/RPM/issues/1))
+- [ ] CLI (Issue to-be-made)
