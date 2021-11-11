@@ -1,6 +1,6 @@
 {
   "$schema": "./schema/rpm.schema.json",
-  "name": "RobloxPackageManager",
+  "name": "RobloxPackageM!anager",
   "description": "",
   "dependencies": {
     "required": {},

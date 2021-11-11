@@ -5,19 +5,27 @@
   "type": "object",
   "definitions": {
     "packageName": {
-      "$ref": "https://mokiycodes.github.io/RPM/schema/packageName.schema.json?cache=12owlwx94.dy"
+      "description": "A package's name",
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 128,
+      "pattern": "([a-z]|[A-Z]|[0-9]|\\.|-|_)*",
+      "default": "Some.Package"
     },
     "dependencies": {
-      "$ref": "https://mokiycodes.github.io/RPM/schema/dependency.schema.json?cache=nyl9mgu2.uxg"
+      "description": "Dependencies",
+      "type": "object",
+      "additionalProperties": {
+        "type": "string",
+        "description": "The package version"
+      }
     }
   },
   "properties": {
     "name": {
       "description": "A package's name",
-      "$ref": "#/definitions/packageName"
+      "$ref": "#/definitions/dependencies"
     }
   },
-  "required": [
-    "name"
-  ]
+  "required": ["name"]
 }
