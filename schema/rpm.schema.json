@@ -1,20 +1,20 @@
 {
   "$schema": "http://json-schema.org/schema",
   "$id": "https://mokiycodes.github.io/RPM/schema/rpm.schema.json",
-  "$comment": "This schema contains the actual JSON description for the contents of a project. cache=8ulkmrra.xei",
+  "$comment": "This schema contains the actual JSON description for the contents of a project. cache=97vy9o8j.wv7",
   "type": "object",
   "definitions": {
     "packageName": {
-      "$ref": "https://mokiycodes.github.io/RPM/schema/packageName.schema.json?cache=wlhqbwfp.fd"
+      "$ref": "https://mokiycodes.github.io/RPM/schema/packageName.schema.json?cache=12owlwx94.dy"
     },
     "dependencies": {
-      "$ref": "https://mokiycodes.github.io/RPM/schema/dependency.schema.json?cache=22cjz8fgf.52"
+      "$ref": "https://mokiycodes.github.io/RPM/schema/dependency.schema.json?cache=nyl9mgu2.uxg"
     }
   },
   "properties": {
     "name": {
-      "$ref": "#/definitions/packageName",
-      "description": "The name of the package"
+      "description": "A package's name",
+      "$ref": "#/definitions/packageName"
     }
   },
   "required": [

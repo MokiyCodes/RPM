@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema",
-  "$id": "https://mokiycodes.github.io/RPM/schema/dependency.schema.json?cache=22cjz8fgf.52",
+  "$id": "https://mokiycodes.github.io/RPM/schema/dependency.schema.json?cache=nyl9mgu2.uxg",
   "description": "Dependencies",
   "type": "object",
   "additionalProperties": {
