@@ -1,9 +1,10 @@
 {
-	"name": "RobloxPackageManager",
-	"description": "",
-	"dependencies": {
-		"required": {},
-		"recommended": {},
-		"optional": {}
-	}
+  "$schema": "https://mokiycodes.github.io/RPM/schema/rpm.schema.json?revision=0",
+  "name": "RobloxPackageManager",
+  "description": "",
+  "dependencies": {
+    "required": {},
+    "recommended": {},
+    "optional": {}
+  }
 }

@@ -15,3 +15,16 @@ It features a config _similar_ to npm's `package.json`, called `rpm.json`. An ex
 - [ ] Make publicly available Package Server
 - [ ] Roblox Plugin ([#1](https://github.com/MokiyCodes/RPM/issues/1))
 - [ ] CLI (Issue to-be-made)
+
+### VSCode Autocomplete
+
+To allow autocompletion of `rpm.json`s, just add the following to your `settings.json`:
+
+```json
+  "json.schemas": [
+    {
+      "fileMatch": ["rpm.json"],
+      "url": "https://mokiycodes.github.io/RPM/schema/rpm.schema.json"
+    }
+  ]
+```
