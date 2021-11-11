@@ -1,0 +1,13 @@
+{
+  "$schema": "http://json-schema.org/schema",
+  "$id": "https://mokiycodes.github.io/RPM/schema/rpm.schema.json",
+  "$comment": "This schema contains the actual JSON description for the contents of a project.",
+  "required": [],
+  "type": "object",
+  "properties": {
+    "name": {
+      "$ref": "",
+      "description": "The name of the package"
+    }
+  }
+}
