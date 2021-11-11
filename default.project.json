@@ -1,5 +1,6 @@
 {
 	"name": "RPM",
+	"globIgnorePaths": ["**/README.md"],
 	"tree": {
 		"$className": "DataModel",
 

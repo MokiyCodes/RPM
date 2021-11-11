@@ -5,3 +5,6 @@
 -- @copyright (c) 2021 Mokiy.                                  --
 -- @license MIT                                                --
 -----------------------------------------------------------------
+if game and _VERSION == 'Luau' then
+  require(script.polyfill).roblox();
+end
