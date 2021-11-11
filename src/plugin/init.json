@@ -1,0 +1,6 @@
+{
+	"$className": "ModuleScript",
+	"module": {
+		"$path": "../module"
+	}
+}

@@ -1,0 +1,9 @@
+{
+	"name": "RobloxPackageManager",
+	"description": "",
+	"dependencies": {
+		"required": {},
+		"recommended": {},
+		"optional": {}
+	}
+}
