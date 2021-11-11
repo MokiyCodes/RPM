@@ -24,7 +24,7 @@
   "properties": {
     "name": {
       "description": "A package's name",
-      "$ref": "#/definitions/dependencies"
+      "$ref": "#/definitions/packageName"
     }
   },
   "required": ["name"]
