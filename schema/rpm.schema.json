@@ -5,12 +5,10 @@
   "type": "object",
   "definitions": {
     "packageName": {
-      "description": "A package's name",
-      "type": "string",
-      "minLength": 1,
-      "maxLength": 128,
-      "pattern": "([a-z]|[A-Z]|[0-9]|\\.|\\-|]\\_)*",
-      "default": "Some.Package"
+      "$ref": "https://mokiycodes.github.io/RPM/schema/packageName.schema.json?cache=2ju91av1m.sz"
+    },
+    "dependencies": {
+      "$ref": "https://mokiycodes.github.io/RPM/schema/dependency.schema.json?cache=19n3jg3ne.0zg"
     }
   },
   "properties": {
