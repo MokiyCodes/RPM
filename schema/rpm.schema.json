@@ -6,7 +6,12 @@
   "type": "object",
   "definitions": {
     "packageName": {
-      "$ref": "https://mokiycodes.github.io/RPM/schema/packageName.schema.json"
+      "description": "A package's name",
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 128,
+      "pattern": "([a-z]|[A-Z]|[0-9]|\\.|\\-|]\\_)*",
+      "default": "Some.Package"
     }
   },
   "properties": {
