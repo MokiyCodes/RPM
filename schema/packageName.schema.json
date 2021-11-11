@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema",
-  "$id": "https://mokiycodes.github.io/RPM/schema/packageName.schema.json?cache=2ju91av1m.sz",
+  "$id": "https://mokiycodes.github.io/RPM/schema/packageName.schema.json?cache=wlhqbwfp.fd",
   "description": "A package's name",
   "type": "string",
   "minLength": 1,
