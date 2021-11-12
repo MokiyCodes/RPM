@@ -1,0 +1,3 @@
+[submodule "src/plugin/RPM.PluginLibrary"]
+	path = src/plugin/RPM.PluginLibrary
+	url = git@github.com:MokiyCodes/RPM.PluginLibrary.git

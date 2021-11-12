@@ -1,17 +1,21 @@
 {
 	"name": "RPM",
-	"globIgnorePaths": ["**/README.md"],
+	"globIgnorePaths": ["**/*.md"],
 	"tree": {
 		"$className": "DataModel",
 
 		"ServerScriptService": {
 			"$className": "ServerScriptService",
-			"RPM": {
+			"LiveLoadPlugins": {
 				"$className": "Folder",
-				"Plugin": {
-					"$path": "src/plugin",
-					"lib": {
-						"$path": "src/module"
+				"$path": "src/LiveLoadPlugins",
+				"RPM": {
+					"$className": "Folder",
+					"Plugin": {
+						"$path": "src/plugin",
+						"lib": {
+							"$path": "src/module"
+						}
 					}
 				}
 			}
