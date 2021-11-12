@@ -1,6 +1,6 @@
 local PluginConfig = {
   ['Name'] = 'RPM';
-  ['Permissions'] = { 'domain@192.168.1.1' };
+  ['Permissions'] = { 'domain@192.168.1.1';'Scripts' };
 }
 
 if not plugin then
