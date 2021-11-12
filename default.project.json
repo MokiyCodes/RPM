@@ -6,8 +6,14 @@
 
 		"ServerScriptService": {
 			"$className": "ServerScriptService",
-			"Plugin": {
-				"$path": "src/plugin"
+			"RPM": {
+				"$className": "Folder",
+				"Plugin": {
+					"$path": "src/plugin",
+					"lib": {
+						"$path": "src/module"
+					}
+				}
 			}
 		},
 

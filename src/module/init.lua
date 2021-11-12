@@ -8,3 +8,7 @@
 if game and _VERSION == 'Luau' then
   require(script.polyfill).roblox();
 end
+
+local PublicLib = {}
+
+return PublicLib

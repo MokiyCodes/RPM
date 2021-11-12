@@ -46,7 +46,10 @@ if _VERSION == 'Luau' and env.game and env.script then
   if RunService:IsClient() then
     error('Clients are currently unsupported', 2)
   end
+
+  return ''
 end
+
 error(
   'No HTTP implementation found for this environment',
   2

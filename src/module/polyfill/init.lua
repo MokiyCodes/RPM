@@ -24,13 +24,13 @@ return {
     local oldRequire = env.require;
     env.require = function( module )
       if (type(module) == 'string') then
-        module = 'script.' .. string.gsub(
+        module = ('script.' .. string.gsub(
           string.gsub(
             string.gsub(
               module, './', ''
-            ), '/init.lua', ''
+            ), '/init', ''
           ), '/', '.'
-        ) -- should return a semi-full name in most cases
+        )):gsub('.lua', '') -- should return a semi-full name in most cases
         return oldRequire(
           resolveInstancePath(
             module
