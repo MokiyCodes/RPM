@@ -1,8 +1,4 @@
 -- I will fix this later - atm, I literally do not care.
-if game and _VERSION == 'Luau' then
-  require(script.Parent.Parent.polyfill).roblox();
-end
-
 warn(
   'The Vanilla Lua HTTP module is currently still in development.'
 )
