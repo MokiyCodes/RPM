@@ -1,3 +1,5 @@
+**Currently archived until I get enough time to work on this.**
+
 # RPM
 
 **R**oblox **P**ackage **M**anager (RPM) is a tool, similar to [NPM](https://npmjs.com/?utm_source=roblox-package-manager), is a tool for managing Roblox and [Rojo](https://rojo.space/?utm_source=roblox-package-manager) packages.<br/>
